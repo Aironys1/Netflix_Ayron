@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#d8d5e2;
+    background-image: url(../img/fundoemvideos.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+h4{
+    text-align: center;
+    font-size: 70px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.video{
+    border-radius: 20px;
+    border: 20px solid #000000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;  
+
+}
+
+
+
+
+section {
+    max-width:80%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    
+    
+}
+p{
+    padding-top:20px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+    color: white;
+}
+
+
+.voltar{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom:50px;
+
+}
+
+.voltar:hover{
+    color: rgb(255, 0, 0);
+    border-bottom: 3px solid white;
+
+}
+
+.topo{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom:50px;
+   
+}
+
+.topo:hover {
+    color: rgb(255, 0, 0);
+    border-bottom: 3px solid white;
+}
+
+
+
+.vontar-principal{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 50px;
+    margin-left: 35%;
+    
+}

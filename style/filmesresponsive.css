@@ -1,0 +1,289 @@
+@media screen and (max-width:600px){
+
+    .filme-principal .descricao {
+       font-size: 12px;
+       
+    }
+    h3.titulo{
+        font-size:20px;
+        display:block;
+        margin-top:125%;
+        max-width: 55%;
+    }
+
+    header .container{
+        display: block;
+    }
+
+    .netflix{
+        display: flex;
+        width: 100px;
+        max-width: 80%;
+        margin: 20px auto;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 40px !important;
+    }
+
+    p{
+        font-size:15px;
+        max-width:100% !important;
+        margin: 0 auto !important;
+        margin-bottom:5% !important;
+    }
+    p.descricao{
+        width:350px !important;
+        text-align: justify !important;
+
+        margin: 50px auto !important;
+        
+    }
+
+    .aironn{
+        margin-top: 270px;
+        
+    }
+
+    nav {
+
+    margin-top: 50px;
+        
+    }
+
+    nav a{
+        font-size:25px !important;
+        margin-top:15px;
+        display: flex;
+    }
+   
+
+    .container-btn{
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom:0px;
+    }
+
+    .botao{
+        
+        Font-size: 15px;
+        margin-left: 20%;
+        margin-top: 30px;   
+ }
+    
+ #cinema{
+     font-size: 30px;
+     margin-top: 20px;
+     border-top: 1px solid red;
+     padding-top: 10px;
+ }
+
+ div.galeria{
+    height: 800px;
+ }
+ img.banner{
+     max-width: 85%;
+     
+ }
+
+ .owl-stage-outer{
+     height:610px;
+ }
+
+
+ a.btn-bigbang{
+     display: flex;
+     align-items: center;
+ }
+
+ .filme-principal {
+    background-image: url(../img/fundomobile.jpg);
+    max-height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+   
+
+
+}
+p.pbanner{
+    font-size:14px;
+    margin-bottom: -500px !important;
+}
+
+.residente{
+    height: 448px !important;
+    width:300px !important;
+    border-radius:20px;
+    margin: 20px auto;
+}
+
+  
+  
+.voltar-principal{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    gap: 20px;
+    
+}
+
+.voltar{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom:30px;
+    margin: 0 auto;
+
+}
+
+.voltar:hover{
+    color: #000000;
+
+
+}
+
+.topo{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom:10px;
+   
+}
+
+.topo:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+
+    
+
+}
+
+@media screen and (min-width:300px ) and (max-width:600px) {
+
+    .residente{
+        height: 328px !important;
+        width:200px !important;
+        border-radius:20px;
+        margin: 20px auto;
+    }
+    
+    #cinema{
+        font-size: 30px;
+        margin-top: 20px;
+        border-top: 1px solid red;
+        padding-top: 10px;
+    }
+    div.galeria{
+        max-width: 90%;
+        max-height: 600px;
+    }
+    img.banner{
+        max-width: 90%;
+        margin: 20px auto;
+        
+    }
+    .pbanner{
+        margin-bottom: -35% !important;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1400px){
+    .filme-principal .descricao {
+        font-size: 12px;
+        
+     }
+     h3.titulo{
+         font-size:50px;
+         display:block;
+         max-width: 55%;
+     }
+
+     p.descricao{
+        width:500px !important;
+        text-align: justify !important;
+
+        margin: 50px auto !important;
+        font-size:20px !important;
+        margin-left: 5% !important;
+        
+    }
+
+     #cinema{
+         margin-top:30px !important;
+     }
+ 
+     header .container{
+         display: block;
+     }
+ 
+     .netflix{
+         display: flex;
+         width: 100px;
+         max-width: 80%;
+         margin: 20px auto;
+     }
+ 
+     .logo {
+         text-align: center;
+         font-size: 40px !important;
+     }
+ 
+     p{
+         font-size:15px;
+         max-width:100% !important;
+         margin: 0 auto !important;
+         margin-bottom:5% !important;
+     }
+ 
+     .aironn{
+         margin-top: 270px;
+         
+     }
+ 
+     nav {
+ 
+     margin-top: 50px;
+         
+     }
+ 
+     nav a{
+         font-size:25px !important;
+         margin-top:15px;
+         display: flex;
+     }
+    
+ 
+     .container-btn{
+     display: block;
+     margin-top: 10px;
+     margin-left: 0;
+     margin-bottom:0px;
+     }
+ 
+     .botao{
+         
+         Font-size: 15px;
+         margin-left: 20%;
+         margin-top: 30px;   
+  }
+}
+
+
+@media screen and (min-width:601px) and (max-width:1400px){
+    img.banner{
+        gap:30px !important;
+        margin-right: 50px !important;
+    }
+    div.owl-item.active {
+    
+        margin-right: 60px !important;
+        margin-left: 100px !important;
+
+    }
+}

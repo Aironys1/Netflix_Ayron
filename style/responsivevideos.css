@@ -1,0 +1,96 @@
+@media screen and (max-width:600px){
+    #topo{
+        font-size: 35px;
+    }
+
+    p{
+        font-size:20px;
+    }
+
+    .bigbang{
+        width: 480px;
+        display:block;
+        margin: 0 auto;
+
+
+        
+    }
+    video.video{
+        display:block;
+        width: 80% !important;
+        height: 140px !important;
+        margin: 0 auto;
+
+
+    }
+
+    
+ 
+    .voltar-principal{
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+        gap: 20px;
+        
+    }
+    
+    .voltar{
+        display: flex;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        margin-bottom:30px;
+        margin: 0 auto;
+    
+    }
+    
+    .voltar:hover{
+        color: #000000;
+    
+    
+    }
+    
+    .topo{
+        display: flex;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        margin-bottom:10px;
+       
+    }
+    
+    .topo:hover {
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    
+
+  
+}
+
+@media screen and (max-width:1000px){
+    #topo{
+        font-size: 35px;
+    }
+
+    p{
+        font-size:20px;
+    }
+
+    .bigbang{
+        width: 100%;
+        display:block;
+        margin: 0 auto;
+        
+    }
+    video.video{
+        display:block;
+        width: 93%;
+        height: 400px;
+        margin: 0 auto;
+
+}
+
+   
+    

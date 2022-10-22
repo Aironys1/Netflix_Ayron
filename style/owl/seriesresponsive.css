@@ -1,0 +1,32 @@
+@media screen and (max-width:600px){
+    h1{
+        font-size:35px;
+        margin: 30px;
+    }
+
+    h2{
+        font-size:30px;
+    }
+
+    div.galeria{
+    width: 200px;
+    display: block;
+    }
+
+    img.serie{
+        display: block;
+        width:200px;
+        margin-bottom: 20px;
+    }
+    div.voltar-principal{
+        width:300px;
+        margin: 0 auto;
+    }
+    a.voltar{
+        font-size:20px;
+    }
+
+    a.topo{
+        font-size: 20px;
+    }
+}
